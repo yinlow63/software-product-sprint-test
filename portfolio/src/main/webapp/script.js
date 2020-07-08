@@ -50,3 +50,17 @@
 }
 
 // Typewriter effect
+function typewriterIntro() {
+    var options = {
+          strings: ["In a nutshell I build cool things.", "My passion in CS are in low level systems and machine learning.",
+          "I work on the HoloLens team @ Microsoft.", "I develop iOS apps.", "I studied Computer Science @ the University of Washington.",
+          "I love soccer, tennis, and boxing.", "I grew up in England and currently live in Washington.",
+          "I can solve the rubix cube in under 2 minutes."],
+          typeSpeed: 30,
+          backSpeed: 20,
+          backDelay: 500,
+          loop: true
+        };
+
+    var typed = new Typed(document.getElementById('#typedElement'), options);
+}
