@@ -2,17 +2,31 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Yin Yin Low's Portfolio</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- JavaScript -->
     <script src="script.js"></script>
+    <!-- Icons -->
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+
   </head>
   <body>
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+
+        <div class="left header-content-right">
+            <h4 class="sub-title">Hello, I’m</h4>
+            <h1 class="title">Yin Yin Low</h1>
+            <!-- Introduction -->
+            <p>A computer science fresh graduate from the University of Washington Seattle, Paul G. Allen School of CSE.
+            I love traveling and photography other than coding. </p>
+            <button class="main-btn" onclick="addRandomQuote()">Favourite Movie Quote</button>
+            <div id="quote-container"></div>
+        </div>
+        <!-- Profile Picture -->
+        <img class="right header-image" src="/images/profile_2.jpg" alt="Profile Picture">
+
     </div>
+
   </body>
 </html>
